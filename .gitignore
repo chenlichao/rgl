@@ -8,3 +8,4 @@ graph.dot
 .project
 .yardoc
 Gemfile.lock
+*.gem

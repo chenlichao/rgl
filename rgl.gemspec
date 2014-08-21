@@ -9,12 +9,12 @@ Gem::Specification.new do |s|
 
   #### Dependencies and requirements.
 
-  s.add_dependency 'stream',     '~> 0.5.0'
-  s.add_dependency 'algorithms', '~> 0.5.0'
+  s.add_dependency 'stream',     '~> 0.5'
+  s.add_dependency 'algorithms', '~> 0.5'
 
-  s.add_development_dependency 'rake'
-  s.add_development_dependency 'rdoc'
-  s.add_development_dependency 'yard'
+  s.add_development_dependency 'rake', '~>0'
+  s.add_development_dependency 'rdoc', '~>0'
+  s.add_development_dependency 'yard', '~>0'
 
   #### Which files are to be included in this gem?
 
