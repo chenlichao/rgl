@@ -31,14 +31,15 @@ module RGL
 				)
 			end
 
-			if params['map']
+			if params[:map]
 				each_edge do |u, v|
-					graph << edge_class.new(
+					aedge= edge_class.new(
 						'from'     => u.to_s,
 						'to'       => v.to_s,
 						'fontsize' => fontsize,
-						'label'    => params['map'].edge_property(u,v)
+						'label'    => params[:map].edge_property(u,v)
 					)
+					graph<<aedge
 				end
 			else
 				each_edge do |u, v|
